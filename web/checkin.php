@@ -1,3 +1,4 @@
+<?php
 <pre class="wp-block-code"><code>&lt;?php
 
     $steam = $_GET["s"];
@@ -16,4 +17,4 @@
     $arr = array('steam 64bit id' => $steamid,'nickname' => $steam,'number' => $numm);
         echo json_encode($arr,JSON_UNESCAPED_UNICODE);
     echo "Okay";
-?></code></pre>
+?>
