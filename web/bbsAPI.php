@@ -1,3 +1,4 @@
+<?php
 <pre class="wp-block-code"><code>&lt;?php
     $user = $_GET["u"];
     $password = $_GET["p"];
@@ -78,4 +79,4 @@
         echo "password Error";
     }
     mysqli_close($conn);
-?></code></pre>
+?>
